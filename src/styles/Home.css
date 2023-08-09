@@ -1,0 +1,64 @@
+#home{
+  text-align: center;
+  margin: 100px;
+}
+
+.intro{
+  display: inline-block;
+}
+
+.textIntro{
+  display: inline-block;
+  text-align: left;
+  margin-right: 100px;
+}
+
+.textIntrop{
+  color: #a1a1a1;
+}
+
+a{
+  margin-right: 5px;
+  color: black;
+}
+
+img{
+  border-radius: 90px;
+  position: relative;
+  bottom: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.techStack{
+  margin: 70px;
+  text-align: left;
+  position: relative;
+  left: 240px;
+}
+
+h4{
+  display: inline-block;
+  margin-right: 15px;
+}
+
+hr{
+  display: inline-block;
+  width: 1px;
+  height: 15px;
+  background-color: #a1a1a1;
+  position: relative;
+  top: 9px;
+  margin-right: 100px;
+}
+
+span{
+  display: inline-block;
+  margin-right: 25px;
+  position: relative;
+  top: 4px;
+}
+
+.cssjavaReact{
+  top: 5px;
+}

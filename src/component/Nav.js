@@ -6,10 +6,10 @@ function Nav(){
     <div className='nav'>
       <h1 className='nav'>Adam.dev</h1>
       <ul className='nav'>
-        <Link to='#home' smooth><li className='nav'>Home</li></Link>
-        <li className='nav'>About</li>
-        <li className='nav'>Projects</li>
-        <li className='nav'>Contact</li>
+        <Link to='#home' smooth><li className='nav' key='home'>Home</li></Link>
+        <Link to="#aboutMe" smooth><li className='nav' key='about'>About</li></Link>
+        <li className='nav' key='projects'>Projects</li>
+        <li className='nav' key='contact'>Contact</li>
       </ul>
     </div>
   );

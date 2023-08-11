@@ -22,7 +22,7 @@ a{
   color: black;
 }
 
-img{
+.myPic {
   border-radius: 90px;
   position: relative;
   bottom: 10px;
@@ -54,9 +54,14 @@ hr{
 
 span{
   display: inline-block;
-  margin-right: 25px;
+  margin: 25px;
   position: relative;
   top: 4px;
+}
+
+.techStack span:hover{
+  position: static;
+  top: auto;
 }
 
 .cssjavaReact{

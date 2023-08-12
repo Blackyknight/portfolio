@@ -1,6 +1,7 @@
 import Nav from './component/Nav.js'
 import Home from './component/Home.js'
 import AboutMe from './component/AboutMe.js'
+import Portfolio from './component/Portfolio.js';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Nav />
       <Home />
       <AboutMe/>
+      <Portfolio />
     </div>
   );
 }
